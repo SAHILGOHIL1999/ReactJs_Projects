@@ -1,18 +1,2 @@
 @import "tailwindcss";
-
-/* Custom class માટે @utility વધુ સારું છે, પણ @layer પણ ચાલશે */
-@layer components {
-  .heading {
-    @apply bg-yellow-700 text-white font-black text-4xl p-4 text-center;
-  }
-}
-
-/* HTML ટેગ્સ માટે @layer base */
-@layer base {
-  h5 {
-    @apply bg-green-700 text-white font-black text-4xl p-4 text-center;
-  }
-  h2 {
-    @apply text-blue-500 underline;
-  }
-}
+~
