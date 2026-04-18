@@ -1,18 +1,19 @@
 import Home from "./Home";
-import About from "./About";
+import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Blog from "./Blog";
 import Pages from "./Pages";
-import Contact from "./Contact";
+import ContactUs from "./ContactUs";  
+import Error from "./Error";    
 
 const All_pages = {
     Home,
-    About_Us,
+    AboutUs,
     Services,
     Blog,
     Pages,
-    Contact_US,
+    ContactUs,    
     Error
 }
 
-export default All_pages
+export default All_pages;
